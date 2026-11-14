@@ -4,7 +4,17 @@
 
 当前发布版本是**战术信息与操作反馈完善版**。2026-11-14，项目使用者反馈“人工验证无误”，并批准上传与公开。本仓库保留既有开发笔记和历史，现已加入可打开的完整 Unity 工程。
 
-![设备配对与实际交互提示](Evidence/ChapterTacticsPolish/Presentation/world-sign-1p8m-1280.png)
+## 游戏演示
+
+[![自动输入逃生演示预览](media/demos/gameplay-preview.gif)](https://github.com/yq6666-66/unity-last-cell-of-power/releases/download/tactics-polish-2026-11-14/gameplay-route-auto-20261115.mp4)
+
+上图是当前版本自动输入路线的9秒节选，展示设备接近、诱导、Q干扰与撤离。视频为Unity引擎画面、静音，使用真实角色控制器；不是人工首通录像。
+
+| 演示 | 内容 |
+| --- | --- |
+| [完整逃生视频 · 约23秒](https://github.com/yq6666-66/unity-last-cell-of-power/releases/download/tactics-polish-2026-11-14/gameplay-route-auto-20261115.mp4) | 充电 → 诱导 → Q干扰 → 终端供电 → 出口 → 结果 |
+| [仓库连接口镜头 · 12秒](https://github.com/yq6666-66/unity-last-cell-of-power/releases/download/tactics-polish-2026-11-14/warehouse-portals-camera.mp4) | 墙面修复基线的受控相机连续镜头，展示通道、墙体与北出口 |
+| [10张截图与录制说明](docs/demos/README.md) | 双机器人、场景、诱导响应、门取消、双威胁、帮助与结算 |
 
 ## 下载试玩
 

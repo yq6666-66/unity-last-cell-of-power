@@ -1,0 +1,143 @@
+{
+  "recordedDate": "2026-11-15",
+  "referenceCommit": "8693e66d50f40b70f95fec3f77f3a0322ef08eb3",
+  "gameSourceCommit": "cbd5cb32f6b223a7a92fea67a031c55a92f19a7d",
+  "route": {
+    "scene": "Assets/ChapterTacticsPolish/Scenes/WarehouseTacticsPolish.unity",
+    "method": "Editor synthetic keyboard/mouse route; real controller and AI; simulated focus; muted; no actor warp. Observer renders the actual camera/HUD to 1280x720 with temporary Canvas ScreenSpaceCamera. Result fade is skipped using the existing UI action for readability. Captured time intervals retained; not human gameplay or a frame-rate measurement.",
+    "capturedFrames": 447,
+    "capturedElapsedSeconds": 19.416521599999996,
+    "result": "PASS polish route; completed groups=1",
+    "finalState": {
+      "file": "frame_000446.jpg",
+      "ui": "Results",
+      "outcome": "Escaped",
+      "seconds": 19.416521599999996,
+      "gameFrame": 7710,
+      "noiseUses": 1,
+      "pulseUses": 1,
+      "energy": 26.177526473999023
+    },
+    "muted": true,
+    "endResultHeld": true
+  },
+  "environmentClip": {
+    "source": "Evidence/WallSurfaceFix/after.mp4",
+    "scope": "controlled camera, frozen gameplay, earlier wall-fix baseline; not human player input"
+  },
+  "screenshots": {
+    "warehouse-start": "gpu/gpu-spawn-1920x1080.png",
+    "robot-01": "gpu/gpu-guard-01-1920x1080.png",
+    "robot-02": "gpu/gpu-guard-02-1920x1080.png",
+    "power-terminal": "gpu/gpu-terminal-1920x1080.png",
+    "exit": "gpu/gpu-exit-1920x1080.png",
+    "noise-response": "Presentation/muted-noise-two-responses-1280.png",
+    "shutter-cancel": "Presentation/muted-shutter-cancel-1280.png",
+    "dual-threats": "Presentation/dual-threat-countdown-1280.png",
+    "help-cards": "Presentation/three-help-cards-1280.png"
+  },
+  "extraScreenshot": {
+    "escape-result": "final route actual results; existing SkipResultFade action"
+  },
+  "videos": [
+    {
+      "file": "gameplay-route-auto-20261115.mp4",
+      "url": "https://github.com/yq6666-66/unity-last-cell-of-power/releases/download/tactics-polish-2026-11-14/gameplay-route-auto-20261115.mp4",
+      "sha256": "2a22978e6d420d1c2224d078b37e64a3c321cef61600861b5d5aa9a4e35d58f2",
+      "metadata": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_name": "h264",
+            "width": 1280,
+            "height": 720,
+            "r_frame_rate": "30/1"
+          }
+        ],
+        "format": {
+          "duration": "23.433333",
+          "size": "7295483"
+        }
+      }
+    },
+    {
+      "file": "warehouse-portals-camera.mp4",
+      "url": "https://github.com/yq6666-66/unity-last-cell-of-power/releases/download/tactics-polish-2026-11-14/warehouse-portals-camera.mp4",
+      "sha256": "39cd06a9eef616ca4f8a71bcf81249d85fc793eb35d506cb0c81fed560ea2bc6",
+      "metadata": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_name": "h264",
+            "width": 1280,
+            "height": 720,
+            "r_frame_rate": "30/1"
+          }
+        ],
+        "format": {
+          "duration": "12.000000",
+          "size": "4183189"
+        }
+      }
+    }
+  ],
+  "repositoryMedia": [
+    {
+      "path": "media/demos/gameplay-preview.gif",
+      "bytes": 2791570,
+      "sha256": "c9640ab95a49e5bab5751352049b800e77668fdf5661d42c6528d16dcd236428"
+    },
+    {
+      "path": "media/demos/images/dual-threats.jpg",
+      "bytes": 89237,
+      "sha256": "c6673fbd00eaf62847d90b40b2fb600b0a4c3ccf328b3f56ac479d255746910d"
+    },
+    {
+      "path": "media/demos/images/escape-result.jpg",
+      "bytes": 85131,
+      "sha256": "e54b2e2cddd6ed061038b483aa7c9275aa9468aee04051554e820c1aa5fabf07"
+    },
+    {
+      "path": "media/demos/images/exit.jpg",
+      "bytes": 98000,
+      "sha256": "ed3bfed271fe2692d718d0abe0c71949563ee32d6bb058f3bceca4273678497e"
+    },
+    {
+      "path": "media/demos/images/help-cards.jpg",
+      "bytes": 64692,
+      "sha256": "97eba8f1ad93d130d266f13bfde916db125571e62339d58c5d372bb02a3f4818"
+    },
+    {
+      "path": "media/demos/images/noise-response.jpg",
+      "bytes": 81085,
+      "sha256": "287942eacf0a77597975d2e370feb4d0caf109e935aad162713e5c814d20c4b7"
+    },
+    {
+      "path": "media/demos/images/power-terminal.jpg",
+      "bytes": 87145,
+      "sha256": "6573e76a8716ddf62dbe75589744b1c59d946c157db2be264161fb7f5bb280dd"
+    },
+    {
+      "path": "media/demos/images/robot-01.jpg",
+      "bytes": 110130,
+      "sha256": "118a5506032115484564d11b65d258aa2b2f88892f660b4e39a11f6eaf27f5aa"
+    },
+    {
+      "path": "media/demos/images/robot-02.jpg",
+      "bytes": 112435,
+      "sha256": "dfed1db3d69db1bbbeef7be02ff019f7ac70c893a6239507d9c13b0fe3733c0c"
+    },
+    {
+      "path": "media/demos/images/shutter-cancel.jpg",
+      "bytes": 80677,
+      "sha256": "a8705d45c93d197a44cad9c586cc48eefb16defded5a2f7f89c304f071ac12a1"
+    },
+    {
+      "path": "media/demos/images/warehouse-start.jpg",
+      "bytes": 85013,
+      "sha256": "294bd6b3c3e3015e4cc372ac8c14daa8d1e86de3903f2df758c2ce8badd1eef9"
+    }
+  ]
+}
