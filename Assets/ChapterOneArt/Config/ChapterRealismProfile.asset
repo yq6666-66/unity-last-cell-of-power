@@ -1,0 +1,47 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 027447c5b62d89648b7acf563ac8499b, type: 3}
+  m_Name: ChapterRealismProfile
+  m_EditorClassIdentifier: Assembly-CSharp::LastCellOfPower.ChapterOneArt.ChapterArtProfile
+  concrete: {fileID: 2100000, guid: bcea70bb402be5046989ebbd4849d7ec, type: 2}
+  paintedMetal: {fileID: 2100000, guid: 54b7ac32ba8816a4ca19ffbaf17b3c66, type: 2}
+  rustedMetal: {fileID: 2100000, guid: ce2a12a110abd3548a72b042d04cad9b, type: 2}
+  wood: {fileID: 2100000, guid: 0bfdfa6aa9d8e4a4f86c2fae1f2f97e2, type: 2}
+  cardboard: {fileID: 2100000, guid: be9f8a0205efed0468f84f6a91c133aa, type: 2}
+  fabric: {fileID: 2100000, guid: 3850b05f44df30a46aa45b1102ef1f27, type: 2}
+  rubber: {fileID: 2100000, guid: 35b428821777f2944a8cfb15ce8e4cee, type: 2}
+  grime: {fileID: 2100000, guid: 97097bc7637a4b84895af7f7ab3bbae9, type: 2}
+  mintEmission: {fileID: 2100000, guid: a50d5ef87f1eec44ba96960a658e37c7, type: 2}
+  warmEmission: {fileID: 2100000, guid: 8c03283e112cadf4793f8664a89b8269, type: 2}
+  coolEmission: {fileID: 2100000, guid: db7686a11cbdd684ab7deb9ef6a1f8ea, type: 2}
+  glass: {fileID: 2100000, guid: f9fa564ae9ad8c44fb5dc9a6aa34f869, type: 2}
+  volume: {fileID: 11400000, guid: aa3056e53e0cd564fac56085867c7742, type: 2}
+  ambientColor: {r: 0.36, g: 0.38, b: 0.38, a: 1}
+  ambientIntensity: 1
+  diffuseBounce: {r: 0.19, g: 0.205, b: 0.21, a: 1}
+  reflectionIntensity: 0.75
+  reflectionResolution: 128
+  inspectionLightIntensity: 4.5
+  inspectionLightRange: 7
+  mainLightIntensity: 0.16
+  workLightIntensity: 3.4
+  warmLight: {r: 1, g: 0.78, b: 0.53, a: 1}
+  coolLight: {r: 0.72, g: 0.81, b: 0.83, a: 1}
+  fogColor: {r: 0.038, g: 0.047, b: 0.053, a: 1}
+  fogStart: 15
+  fogEnd: 50
+  panelColor: {r: 0.035, g: 0.036, b: 0.034, a: 0.85}
+  accentColor: {r: 0.58, g: 0.72, b: 0.62, a: 1}
+  highlightStrength: 0.12
+  flickerAmplitude: 0.11
+  flickerPeriod: 4.7
+  decorationSeed: 1132026

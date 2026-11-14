@@ -1,0 +1,17 @@
+{
+  "assetId": "steel_frame_shelves_03",
+  "materials": [
+    {
+      "name": "steel_frame_shelves_03",
+      "base": "steel_frame_shelves_03_Base.jpg",
+      "normal": "steel_frame_shelves_03_Normal.png",
+      "packed": "steel_frame_shelves_03_Packed.png"
+    },
+    {
+      "name": "steel_frame_shelves_03_drawers",
+      "base": "steel_frame_shelves_03_drawers_Base.png",
+      "normal": "steel_frame_shelves_03_drawers_Normal.png",
+      "packed": "steel_frame_shelves_03_drawers_Packed.png"
+    }
+  ]
+}

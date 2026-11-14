@@ -1,0 +1,10 @@
+# Preserve the exact validated source/asset bytes on Windows and other systems.
+* -text
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.exr binary
+*.fbx binary
+*.wav binary
+*.otf binary
+*.ttf binary

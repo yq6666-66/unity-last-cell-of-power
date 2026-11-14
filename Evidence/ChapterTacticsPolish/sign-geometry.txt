@@ -1,0 +1,1 @@
+PASS six signs: text/backing separation >=12 mm, no added collider/nav obstacle/Light, overlapping coplanar face pairs=0; generated renderers=30; nearby renderer pairs checked=0. Geometry only; visual readability and temporal stability remain separate.

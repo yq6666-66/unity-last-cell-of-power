@@ -1,0 +1,35 @@
+{
+  "author": "Original procedural model created for LastCellOfPower",
+  "license": "CC0-1.0",
+  "generator": "Tools/BuildRustGuard.py",
+  "blender": "5.2.3 LTS",
+  "baseline_world_bounds_m": [
+    1.076,
+    1.077,
+    1.323
+  ],
+  "bounds_blender_xyz": {
+    "min": [
+      -0.5250000357627869,
+      -0.527999997138977,
+      0.03675639629364014
+    ],
+    "max": [
+      0.5250000357627869,
+      0.5090000033378601,
+      1.2589999437332153
+    ],
+    "size": [
+      1.0500000715255737,
+      1.0370000004768372,
+      1.2222435474395752
+    ]
+  },
+  "renderers": 8,
+  "triangles": 71544,
+  "notes": "Original industrial inspection-machine design; genre reference only; no Capcom artwork, model, logo or texture copied. Visual meshes only; all gameplay components remain in Unity baseline.",
+  "sha256": {
+    "RustGuard.fbx": "90677ad6743b21635a1b3cbeb0e71c80871e21d846532e19616df58c89c9a0fc",
+    "Source~/RustGuard.blend": "3240ef1334e0d4b6796f43192717504581ffde655a446e738f1e5ff2c018d1fc"
+  }
+}

@@ -1,0 +1,155 @@
+{
+  "materials": [
+    {
+      "family": "WallConcrete",
+      "assetId": "concrete_wall_003",
+      "title": "Concrete Wall 003",
+      "authors": {
+        "Dimitrios Savva": "Photography",
+        "Rico Cilliers": "Processing"
+      },
+      "source": "https://polyhaven.com/a/concrete_wall_003",
+      "license": "CC0-1.0",
+      "licenseURL": "https://polyhaven.com/license",
+      "dimensionsMillimetres": [
+        3000,
+        3000.000238418579
+      ],
+      "files": [
+        {
+          "kind": "Diffuse",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/concrete_wall_003/concrete_wall_003_diff_2k.jpg",
+          "path": "Textures/WallConcrete/Base.jpg",
+          "sha256": "751ac658d1335d0903f198176253a2cbd06457bbb1f549dc2fa04e4b96f915c3",
+          "upstreamMD5": "e7d678d14c74d55105077093b545d31e",
+          "bytes": 1083378
+        },
+        {
+          "kind": "nor_gl",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Textures/png/2k/concrete_wall_003/concrete_wall_003_nor_gl_2k.png",
+          "path": "Textures/WallConcrete/Normal.png",
+          "sha256": "64c8156389b7b43d8a6528dea199683fcb140d4f3d6d5a5e59dd2a345d61e13e",
+          "upstreamMD5": "5900a0dbc2fdf290995000c579fbb88d",
+          "bytes": 22433727
+        },
+        {
+          "kind": "arm",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/concrete_wall_003/concrete_wall_003_arm_2k.jpg",
+          "path": "Textures/WallConcrete/SourceARM.bytes",
+          "sha256": "48ce60b9217019724b8f819e84c5b13ea0d3865920e388facf1842942e5ccf82",
+          "upstreamMD5": "cf08d392b1be40811ccabf37e432d492",
+          "bytes": 843865
+        },
+        {
+          "kind": "DerivedURPPacked",
+          "path": "Textures/WallConcrete/Packed.png",
+          "sha256": "d91072c5c3249a7e8da2e401d3b7c48f3ac2fca43e4208ce18d948f62cfac3cf",
+          "conversion": "R=ARM.B, G=ARM.R, B=0, A=255-ARM.G; linear"
+        }
+      ]
+    },
+    {
+      "family": "PeelingPaint",
+      "assetId": "painted_concrete_02",
+      "title": "Painted Concrete 02",
+      "authors": {
+        "Rob Tuytel": "All"
+      },
+      "source": "https://polyhaven.com/a/painted_concrete_02",
+      "license": "CC0-1.0",
+      "licenseURL": "https://polyhaven.com/license",
+      "dimensionsMillimetres": [
+        4000,
+        4000
+      ],
+      "files": [
+        {
+          "kind": "Diffuse",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/painted_concrete_02/painted_concrete_02_diff_2k.jpg",
+          "path": "Textures/PeelingPaint/Base.jpg",
+          "sha256": "cc75f54f23ae7a02230885278cfdc103efefe453941874cda319c7cec54b30aa",
+          "upstreamMD5": "8f39424d7fe9cbc0c8e5c75fb29dc1f0",
+          "bytes": 2103406
+        },
+        {
+          "kind": "nor_gl",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Textures/png/2k/painted_concrete_02/painted_concrete_02_nor_gl_2k.png",
+          "path": "Textures/PeelingPaint/Normal.png",
+          "sha256": "f676fea0c27e37d7d6f71bb5d689f6541c79480623d0763ecff851d9b2067ac4",
+          "upstreamMD5": "3ed4cb10cadf3c526ba63de9dc9cba3f",
+          "bytes": 21608610
+        },
+        {
+          "kind": "arm",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/painted_concrete_02/painted_concrete_02_arm_2k.jpg",
+          "path": "Textures/PeelingPaint/SourceARM.bytes",
+          "sha256": "48b7ef170b2105475ad9be2820caab683a2e0e6200578cbcb2bee0659d7e1775",
+          "upstreamMD5": "dafa6d13e2d6984e584bd3c6aa0c9dcd",
+          "bytes": 3125588
+        },
+        {
+          "kind": "DerivedURPPacked",
+          "path": "Textures/PeelingPaint/Packed.png",
+          "sha256": "6c2040e2eae23ae1cc50ae428b52c47cbdf7f3c3639b46659f0e95a3e43a2630",
+          "conversion": "R=ARM.B, G=ARM.R, B=0, A=255-ARM.G; linear"
+        }
+      ]
+    },
+    {
+      "family": "GuardCorrodedPaint",
+      "assetId": "rusty_painted_metal",
+      "title": "Rusty Painted Metal",
+      "authors": {
+        "Amal Kumar": "All"
+      },
+      "source": "https://polyhaven.com/a/rusty_painted_metal",
+      "license": "CC0-1.0",
+      "licenseURL": "https://polyhaven.com/license",
+      "dimensionsMillimetres": [
+        2200.000047683716,
+        2200.000047683716
+      ],
+      "files": [
+        {
+          "kind": "Diffuse",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/rusty_painted_metal/rusty_painted_metal_diff_2k.jpg",
+          "path": "Textures/GuardCorrodedPaint/Base.jpg",
+          "sha256": "883118fafabb56304f9e33ea2da3c183379b1c1b1c5a4702fdc335b0cf84614f",
+          "upstreamMD5": "dd4f975d539100c4d31fa91d41e1ea71",
+          "bytes": 1930544
+        },
+        {
+          "kind": "nor_gl",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Textures/png/2k/rusty_painted_metal/rusty_painted_metal_nor_gl_2k.png",
+          "path": "Textures/GuardCorrodedPaint/Normal.png",
+          "sha256": "c8c6009bcc562788c01c52477e77d576d9bc82ac78ccff994eb4d3943924aa14",
+          "upstreamMD5": "634f9d08d85e3d31d0e19f71fb0e57a9",
+          "bytes": 23700973
+        },
+        {
+          "kind": "arm",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/rusty_painted_metal/rusty_painted_metal_arm_2k.jpg",
+          "path": "Textures/GuardCorrodedPaint/SourceARM.bytes",
+          "sha256": "56f5428c8417f75cd0826fb8aa555d3f2e9cae872640912f32376b6357fac8d7",
+          "upstreamMD5": "1ae307c9293e24227313d18f857c226b",
+          "bytes": 1552679
+        },
+        {
+          "kind": "DerivedURPPacked",
+          "path": "Textures/GuardCorrodedPaint/Packed.png",
+          "sha256": "dae70452ded864ee023c711898087c7580517ec3facc3d3a5b1a258fe1537110",
+          "conversion": "R=ARM.B, G=ARM.R, B=0, A=255-ARM.G; linear"
+        }
+      ]
+    }
+  ],
+  "derivedData": [
+    {
+      "path": "Textures/CoatedMetal/Packed.png",
+      "source": "Textures/GuardCorrodedPaint/Packed.png",
+      "operation": "R=min(R,38); preserve G/B/A; old paint and oxide are mostly dielectric",
+      "sha256": "dae70452ded864ee023c711898087c7580517ec3facc3d3a5b1a258fe1537110"
+    }
+  ],
+  "purpose": "Realistic industrial art refinement; no Capcom game assets used"
+}

@@ -1,0 +1,201 @@
+{
+    "status": "PASS",
+    "scope": "Explicit 1920x1080 Camera.Render plus synchronous 1-pixel GPU readback per sampled frame. Fixed cameras, gameplay motion frozen, atmosphere/HUD active. Wall-clock render-and-sync throughput is conservative and includes GPU synchronization; it is not normal gameplay FPS or standalone GPU timing. No subjective art or normal-input acceptance.",
+    "unityVersion": "6000.3.28f1",
+    "graphicsDeviceType": "Direct3D11",
+    "graphicsDeviceName": "NVIDIA GeForce RTX 4060 Laptop GPU",
+    "graphicsDeviceVersion": "Direct3D 11.0 [level 11.1]",
+    "scene": "Assets/ChapterTacticsPolish/Scenes/WarehouseTacticsPolish.unity",
+    "error": "",
+    "outputWidth": 1920,
+    "outputHeight": 1080,
+    "screenWidth": 1920,
+    "screenHeight": 1080,
+    "warmupFrames": 60,
+    "sampleFrames": 600,
+    "gpuTimingSamples": 0,
+    "cpuTimingSamples": 600,
+    "renderScale": 1.0,
+    "originalRunInBackground": true,
+    "probeRunInBackground": true,
+    "originalVSyncCount": 0,
+    "originalTargetFrameRate": -1,
+    "probeVSyncCount": 0,
+    "probeTargetFrameRate": -1,
+    "graphicsActive": true,
+    "renderTargetCreated": true,
+    "gpuTimingAvailable": false,
+    "meetsFrameTarget": true,
+    "postProcessing": true,
+    "averageFrameMs": 5.240422333333337,
+    "p95FrameMs": 6.0872,
+    "averageFramesPerSecond": 190.8243146051777,
+    "averageCpuFrameMs": 5.246412166666666,
+    "p95CpuFrameMs": 6.0975,
+    "averageGpuFrameMs": 0.0,
+    "p95GpuFrameMs": 0.0,
+    "views": [
+        {
+            "name": "spawn",
+            "screenshot": "gpu-spawn-1920x1080.png",
+            "position": {
+                "x": -8.0,
+                "y": 0.8999999761581421,
+                "z": -9.0
+            },
+            "lookAt": {
+                "x": -8.0,
+                "y": 0.8999999761581421,
+                "z": -4.0
+            },
+            "firstSample": 0,
+            "sampleCount": 67,
+            "pixelRange": 220,
+            "nonBlackPixelSamples": 1966
+        },
+        {
+            "name": "connection-south",
+            "screenshot": "gpu-connection-south-1920x1080.png",
+            "position": {
+                "x": -3.0,
+                "y": 0.8999999761581421,
+                "z": -7.0
+            },
+            "lookAt": {
+                "x": 3.0,
+                "y": 0.8999999761581421,
+                "z": -7.0
+            },
+            "firstSample": 67,
+            "sampleCount": 67,
+            "pixelRange": 224,
+            "nonBlackPixelSamples": 1974
+        },
+        {
+            "name": "connection-north",
+            "screenshot": "gpu-connection-north-1920x1080.png",
+            "position": {
+                "x": -3.0,
+                "y": 0.8999999761581421,
+                "z": 7.0
+            },
+            "lookAt": {
+                "x": 3.0,
+                "y": 0.8999999761581421,
+                "z": 7.0
+            },
+            "firstSample": 134,
+            "sampleCount": 66,
+            "pixelRange": 220,
+            "nonBlackPixelSamples": 1969
+        },
+        {
+            "name": "connection-west",
+            "screenshot": "gpu-connection-west-1920x1080.png",
+            "position": {
+                "x": -7.0,
+                "y": 0.8999999761581421,
+                "z": -3.0
+            },
+            "lookAt": {
+                "x": -7.0,
+                "y": 0.8999999761581421,
+                "z": 3.0
+            },
+            "firstSample": 200,
+            "sampleCount": 67,
+            "pixelRange": 225,
+            "nonBlackPixelSamples": 1964
+        },
+        {
+            "name": "connection-east",
+            "screenshot": "gpu-connection-east-1920x1080.png",
+            "position": {
+                "x": 7.0,
+                "y": 0.8999999761581421,
+                "z": -1.600000023841858
+            },
+            "lookAt": {
+                "x": 7.0,
+                "y": 0.8999999761581421,
+                "z": 3.0
+            },
+            "firstSample": 267,
+            "sampleCount": 67,
+            "pixelRange": 224,
+            "nonBlackPixelSamples": 1912
+        },
+        {
+            "name": "terminal",
+            "screenshot": "gpu-terminal-1920x1080.png",
+            "position": {
+                "x": -8.0,
+                "y": 0.8999999761581421,
+                "z": 5.199999809265137
+            },
+            "lookAt": {
+                "x": -8.0,
+                "y": 0.8999999761581421,
+                "z": 8.0
+            },
+            "firstSample": 334,
+            "sampleCount": 66,
+            "pixelRange": 219,
+            "nonBlackPixelSamples": 2021
+        },
+        {
+            "name": "exit",
+            "screenshot": "gpu-exit-1920x1080.png",
+            "position": {
+                "x": 8.0,
+                "y": 0.8999999761581421,
+                "z": 9.800000190734864
+            },
+            "lookAt": {
+                "x": 8.0,
+                "y": 0.8999999761581421,
+                "z": 12.15999984741211
+            },
+            "firstSample": 400,
+            "sampleCount": 67,
+            "pixelRange": 221,
+            "nonBlackPixelSamples": 1884
+        },
+        {
+            "name": "guard-01",
+            "screenshot": "gpu-guard-01-1920x1080.png",
+            "position": {
+                "x": 6.099999904632568,
+                "y": 1.0299999713897706,
+                "z": 8.5
+            },
+            "lookAt": {
+                "x": 7.0,
+                "y": 0.6799999475479126,
+                "z": 7.0
+            },
+            "firstSample": 467,
+            "sampleCount": 67,
+            "pixelRange": 221,
+            "nonBlackPixelSamples": 1983
+        },
+        {
+            "name": "guard-02",
+            "screenshot": "gpu-guard-02-1920x1080.png",
+            "position": {
+                "x": 11.149999618530274,
+                "y": 1.0299999713897706,
+                "z": -2.0999999046325685
+            },
+            "lookAt": {
+                "x": 10.0,
+                "y": 0.6799999475479126,
+                "z": -4.0
+            },
+            "firstSample": 534,
+            "sampleCount": 66,
+            "pixelRange": 223,
+            "nonBlackPixelSamples": 1986
+        }
+    ]
+}

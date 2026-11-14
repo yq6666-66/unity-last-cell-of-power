@@ -1,0 +1,311 @@
+{
+  "textureImport": "Base sRGB; normals NormalMap; packed linear; no height displacement",
+  "materials": [
+    {
+      "family": "Concrete",
+      "assetId": "concrete_floor_worn_001",
+      "title": "Concrete Floor Worn 001",
+      "authors": {
+        "Dimitrios Savva": "Photography",
+        "Rico Cilliers": "Processing"
+      },
+      "source": "https://polyhaven.com/a/concrete_floor_worn_001",
+      "license": "CC0-1.0",
+      "licenseURL": "https://polyhaven.com/license",
+      "dimensionsMillimetres": [
+        3000,
+        3000.000238418579
+      ],
+      "files": [
+        {
+          "kind": "Diffuse",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/concrete_floor_worn_001/concrete_floor_worn_001_diff_2k.jpg",
+          "path": "Textures/Concrete/Base.jpg",
+          "sha256": "e29b45cdcd6d02fae3c087c456196ffa750779a9b62e7071aa3831dc322a0cc4",
+          "upstreamMD5": "6a3645f19f2ac4b7f60f43419c5d09ec",
+          "bytes": 482906
+        },
+        {
+          "kind": "nor_gl",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Textures/png/2k/concrete_floor_worn_001/concrete_floor_worn_001_nor_gl_2k.png",
+          "path": "Textures/Concrete/Normal.png",
+          "sha256": "c300b26f84b094c04ee1d45db47b349561b03c6b371f2f6b85b95584f7f507c7",
+          "upstreamMD5": "7516e0878d101554ce5869dc2b281519",
+          "bytes": 22874866
+        },
+        {
+          "kind": "arm",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/concrete_floor_worn_001/concrete_floor_worn_001_arm_2k.jpg",
+          "path": "Textures/Concrete/SourceARM.bytes",
+          "sha256": "f239a75b8b816ceb85058933b6115e0fcd92e4709e9210e2b4f834f47d9fa7c6",
+          "upstreamMD5": "ed519bf68bcf8581447a9d3fbc1e8c45",
+          "bytes": 649883
+        },
+        {
+          "kind": "DerivedURPPacked",
+          "path": "Textures/Concrete/Packed.png",
+          "sha256": "acfc08990062c48176210e53d33e8b3c49e9f19f5a6a3ed0fa587e75944e987c",
+          "conversion": "R=ARM.B, G=ARM.R, B=0, A=255-ARM.G; linear"
+        }
+      ]
+    },
+    {
+      "family": "PaintedMetal",
+      "assetId": "green_metal_rust",
+      "title": "Green Metal Rust",
+      "authors": {
+        "Rob Tuytel": "All"
+      },
+      "source": "https://polyhaven.com/a/green_metal_rust",
+      "license": "CC0-1.0",
+      "licenseURL": "https://polyhaven.com/license",
+      "dimensionsMillimetres": [
+        1000,
+        1000
+      ],
+      "files": [
+        {
+          "kind": "Diffuse",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/green_metal_rust/green_metal_rust_diff_2k.jpg",
+          "path": "Textures/PaintedMetal/Base.jpg",
+          "sha256": "727515554ffb6410be82d3625a2837fe46612cb186ec391f77c50bd52c4d7ab2",
+          "upstreamMD5": "fed1afb0e3b6f5a5710cee229fd54897",
+          "bytes": 787402
+        },
+        {
+          "kind": "nor_gl",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Textures/png/2k/green_metal_rust/green_metal_rust_nor_gl_2k.png",
+          "path": "Textures/PaintedMetal/Normal.png",
+          "sha256": "103eeb774e68bee61292e5a95de1b9ad040c56185c39a7485c5cefca8b064326",
+          "upstreamMD5": "7e6eb0c41507137b07c84a4f8956dcb4",
+          "bytes": 11611798
+        },
+        {
+          "kind": "arm",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/green_metal_rust/green_metal_rust_arm_2k.jpg",
+          "path": "Textures/PaintedMetal/SourceARM.bytes",
+          "sha256": "5e6592a800b82bff8cd24fa0ceb84588c1396ee56992ab8c85fd44f607f4de46",
+          "upstreamMD5": "d2b0d367da9f077b0f5727be761896fa",
+          "bytes": 477556
+        },
+        {
+          "kind": "DerivedURPPacked",
+          "path": "Textures/PaintedMetal/Packed.png",
+          "sha256": "782e6c3d785ed4e0d1973044fb6c949fbc39f98483bbdf38b08dc8311c0e99d0",
+          "conversion": "R=ARM.B, G=ARM.R, B=0, A=255-ARM.G; linear"
+        }
+      ]
+    },
+    {
+      "family": "RustedMetal",
+      "assetId": "rusty_metal_02",
+      "title": "Rusty Metal 02",
+      "authors": {
+        "Rob Tuytel": "All"
+      },
+      "source": "https://polyhaven.com/a/rusty_metal_02",
+      "license": "CC0-1.0",
+      "licenseURL": "https://polyhaven.com/license",
+      "dimensionsMillimetres": [
+        1000,
+        1000
+      ],
+      "files": [
+        {
+          "kind": "Diffuse",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/rusty_metal_02/rusty_metal_02_diff_2k.jpg",
+          "path": "Textures/RustedMetal/Base.jpg",
+          "sha256": "4c887dd400ed8a5964377c65e20654262307d6888443eae85feb80cc6e72287a",
+          "upstreamMD5": "385195f8de0117418d99dc1d06b7ff38",
+          "bytes": 1952454
+        },
+        {
+          "kind": "nor_gl",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Textures/png/2k/rusty_metal_02/rusty_metal_02_nor_gl_2k.png",
+          "path": "Textures/RustedMetal/Normal.png",
+          "sha256": "6ad252152bc4baecfe3553e0a5472d96e895d39c4f77f9ef059be5ba22ae0e6f",
+          "upstreamMD5": "ffbde4a17f2977baebcec7d3c3301b29",
+          "bytes": 3897537
+        },
+        {
+          "kind": "arm",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/rusty_metal_02/rusty_metal_02_arm_2k.jpg",
+          "path": "Textures/RustedMetal/SourceARM.bytes",
+          "sha256": "500189e41e84d017937608171370b18e862d2c6d808c2b98963b8e23642b1cd4",
+          "upstreamMD5": "d28c9c1446e2373ff48d0d9c3e7f2ebb",
+          "bytes": 705888
+        },
+        {
+          "kind": "DerivedURPPacked",
+          "path": "Textures/RustedMetal/Packed.png",
+          "sha256": "674dca11f1e4f1c6e4bd59a862d8e1d8efb7fc1e0a4be47f66349711962720d0",
+          "conversion": "R=ARM.B, G=ARM.R, B=0, A=255-ARM.G; linear"
+        }
+      ]
+    },
+    {
+      "family": "Wood",
+      "assetId": "rough_wood",
+      "title": "Rough Wood",
+      "authors": {
+        "Rob Tuytel": "All"
+      },
+      "source": "https://polyhaven.com/a/rough_wood",
+      "license": "CC0-1.0",
+      "licenseURL": "https://polyhaven.com/license",
+      "dimensionsMillimetres": [
+        500,
+        500
+      ],
+      "files": [
+        {
+          "kind": "Diffuse",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/rough_wood/rough_wood_diff_2k.jpg",
+          "path": "Textures/Wood/Base.jpg",
+          "sha256": "0bd2b3195db9b54d55aa0f842801220ec5e1d389f5fc1e670b378bdaca3f8e7b",
+          "upstreamMD5": "f5f9c55696f047ceaa49dc97c5aa5526",
+          "bytes": 2223327
+        },
+        {
+          "kind": "nor_gl",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Textures/png/2k/rough_wood/rough_wood_nor_gl_2k.png",
+          "path": "Textures/Wood/Normal.png",
+          "sha256": "5507853e98e893d739e77c7a1662bb28fb976fc450fb66715733e66f9b1d15f0",
+          "upstreamMD5": "198eec08d20acddfd651956fba2fc538",
+          "bytes": 6604342
+        },
+        {
+          "kind": "arm",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/rough_wood/rough_wood_arm_2k.jpg",
+          "path": "Textures/Wood/SourceARM.bytes",
+          "sha256": "bd7597ff0d2d6682e6990a0204b67260c001cdffe01acf95e8f8b43881edb4af",
+          "upstreamMD5": "2f6ee37ee8810aeeb72a14a7d345ba9f",
+          "bytes": 575486
+        },
+        {
+          "kind": "DerivedURPPacked",
+          "path": "Textures/Wood/Packed.png",
+          "sha256": "3929ee3e7c88412d77e98e69392664506e4fb467b76435da8d6c61bf5b029fa0",
+          "conversion": "R=ARM.B, G=ARM.R, B=0, A=255-ARM.G; linear"
+        }
+      ]
+    },
+    {
+      "family": "Fabric",
+      "assetId": "hessian_230",
+      "title": "Hessian 230",
+      "authors": {
+        "colormass": "Photography",
+        "Rico Cilliers": "Processing"
+      },
+      "source": "https://polyhaven.com/a/hessian_230",
+      "license": "CC0-1.0",
+      "licenseURL": "https://polyhaven.com/license",
+      "dimensionsMillimetres": [
+        268.7538661074732,
+        267.1999931335449
+      ],
+      "files": [
+        {
+          "kind": "Diffuse",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/hessian_230/hessian_230_diff_2k.jpg",
+          "path": "Textures/Fabric/Base.jpg",
+          "sha256": "1c1d66e3764dded1cfafa5147ea56a28ef7648e3c5cae6892b8dada92d408685",
+          "upstreamMD5": "e73dcb7ae06f7267f74fc5869c63233c",
+          "bytes": 3828573
+        },
+        {
+          "kind": "nor_gl",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Textures/png/2k/hessian_230/hessian_230_nor_gl_2k.png",
+          "path": "Textures/Fabric/Normal.png",
+          "sha256": "a15dc22dfdc3a57715afca999ae417266096146f63a1f6219066a91d58d65b9d",
+          "upstreamMD5": "8f0ecd0dbbcdda92469d2eb034ba37a6",
+          "bytes": 21834132
+        },
+        {
+          "kind": "arm",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/hessian_230/hessian_230_arm_2k.jpg",
+          "path": "Textures/Fabric/SourceARM.bytes",
+          "sha256": "cbebf37ba0422bbf9df10f2fe69134e06afa4458d17a9066c772991ade0056d3",
+          "upstreamMD5": "8b852521af9809e7160ba42b8eca0726",
+          "bytes": 4692408
+        },
+        {
+          "kind": "DerivedURPPacked",
+          "path": "Textures/Fabric/Packed.png",
+          "sha256": "a8ac6cf0d93cb57db4c7eb52a1e75ee60e450bbe118ec5389c5b96bf5253395c",
+          "conversion": "R=ARM.B, G=ARM.R, B=0, A=255-ARM.G; linear"
+        }
+      ]
+    },
+    {
+      "family": "Cardboard",
+      "source": "Tools/PrepareChapterArtTextures.py",
+      "authors": {
+        "LastCellOfPower project": "Deterministic original texture"
+      },
+      "license": "Project-original",
+      "seed": 1132035,
+      "files": [
+        {
+          "path": "Textures/Cardboard/Base.png",
+          "sha256": "3b9f600d58bda87d5859534e03a30b147f7556f211be4c1f2077f897e65bf237"
+        },
+        {
+          "path": "Textures/Cardboard/Normal.png",
+          "sha256": "9f434a0f8f97d5cd291c118eceb20bcaff796e8ba49034620802353fdbf77242"
+        },
+        {
+          "path": "Textures/Cardboard/Packed.png",
+          "sha256": "36f029788896bac8a2363e0fe45aa652df250befdc0baf70d4b26e417ec20964"
+        }
+      ]
+    },
+    {
+      "family": "Rubber",
+      "source": "Tools/PrepareChapterArtTextures.py",
+      "authors": {
+        "LastCellOfPower project": "Deterministic original texture"
+      },
+      "license": "Project-original",
+      "seed": 1132032,
+      "files": [
+        {
+          "path": "Textures/Rubber/Base.png",
+          "sha256": "bd6d3a488e7d60acbd3caeb9ee4996e2922bf1e83944d2dfc8f3fb85fd3b0f0b"
+        },
+        {
+          "path": "Textures/Rubber/Normal.png",
+          "sha256": "9f434a0f8f97d5cd291c118eceb20bcaff796e8ba49034620802353fdbf77242"
+        },
+        {
+          "path": "Textures/Rubber/Packed.png",
+          "sha256": "0bbfd0c44fbda7cae1ddefd840bbbc22cc9e5a220ada60569531a4c4e6728c62"
+        }
+      ]
+    },
+    {
+      "family": "Grime",
+      "source": "Tools/PrepareChapterArtTextures.py",
+      "authors": {
+        "LastCellOfPower project": "Deterministic original texture"
+      },
+      "license": "Project-original",
+      "seed": 1132031,
+      "files": [
+        {
+          "path": "Textures/Grime/Base.png",
+          "sha256": "5d58717c813e9c0c0168a89f286e10d604d1e52fc0e405e898750a5ca34dba50"
+        },
+        {
+          "path": "Textures/Grime/Normal.png",
+          "sha256": "9f434a0f8f97d5cd291c118eceb20bcaff796e8ba49034620802353fdbf77242"
+        },
+        {
+          "path": "Textures/Grime/Packed.png",
+          "sha256": "82948764834de85ba3678b32ac688a88259500a244450bb2f111c1bead94b3cd"
+        }
+      ]
+    }
+  ]
+}

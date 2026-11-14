@@ -1,0 +1,5 @@
+Result=Succeeded
+Errors=0
+Warnings=0
+Unity=6000.3.28f1
+Directory=<WORKSPACE>\Builds\ChapterTacticsPolish-20261114-223021

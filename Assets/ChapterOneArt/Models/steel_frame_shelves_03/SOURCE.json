@@ -1,0 +1,97 @@
+{
+  "assetId": "steel_frame_shelves_03",
+  "title": "Steel Frame Shelves 03",
+  "authors": {
+    "Ulan Cabanilla": "All"
+  },
+  "source": "https://polyhaven.com/a/steel_frame_shelves_03",
+  "license": "CC0-1.0",
+  "files": [
+    {
+      "path": "source.blend",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Models/blend/2k/steel_frame_shelves_03/steel_frame_shelves_03_2k.blend",
+      "md5": "2ee7c7aa287b3c7e136089e9e50c362e",
+      "sha256": "b5d0c7518e1c693ce281a324f97ddbecffa2876077186e53f906612fbb49426d"
+    },
+    {
+      "path": "textures/steel_frame_shelves_03_metal_2k.exr",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/2k/steel_frame_shelves_03/steel_frame_shelves_03_metal_2k.exr",
+      "md5": "99096a5aef5dfb08ebf86c183abb6376",
+      "sha256": "ada1fe9323fe826c3ae7c24e033355a5e86bc7144b3dbc31a402a9817a65f60a"
+    },
+    {
+      "path": "textures/steel_frame_shelves_03_drawers_diff_2k.png",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/2k/steel_frame_shelves_03/steel_frame_shelves_03_drawers_diff_2k.png",
+      "md5": "5adc13993749256f69c91c4f023d6214",
+      "sha256": "f82831323f6236b810ce48fe5b3e1c5d637dc04fbfd54102222e7f4712a3f34d"
+    },
+    {
+      "path": "textures/steel_frame_shelves_03_rough_2k.exr",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/2k/steel_frame_shelves_03/steel_frame_shelves_03_rough_2k.exr",
+      "md5": "9705ba35f94e515a69556beded83bef2",
+      "sha256": "5c0c0faa33dfd30e0049462e867c5a57455dee2847e1fac3c1d5a6116bf17d53"
+    },
+    {
+      "path": "textures/steel_frame_shelves_03_drawers_rough_2k.png",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/2k/steel_frame_shelves_03/steel_frame_shelves_03_drawers_rough_2k.png",
+      "md5": "23187683263ba86ef7caa64e77ced857",
+      "sha256": "6e2762c1b6d207b8c0bc792d0eeb5cef750d80d81a2d94d4a7b2731fb0e436c2"
+    },
+    {
+      "path": "textures/steel_frame_shelves_03_diff_2k.jpg",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/steel_frame_shelves_03/steel_frame_shelves_03_diff_2k.jpg",
+      "md5": "825cef03b01c3d6ac16d96dd3ad10987",
+      "sha256": "63c18fb19103ddf41a9d1066af47ff75c938d147a2e6cf0d7b90d5d0b01dacbf"
+    },
+    {
+      "path": "textures/steel_frame_shelves_03_drawers_nor_gl_2k.png",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/2k/steel_frame_shelves_03/steel_frame_shelves_03_drawers_nor_gl_2k.png",
+      "md5": "d5d3f01be45fadb57301d0aa6a7a4fd7",
+      "sha256": "a3c3ab8c4862c761deb7dfb6a720a275f1f4f661373da9b50de7f8bf8085d689"
+    },
+    {
+      "path": "textures/steel_frame_shelves_03_nor_gl_2k.exr",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/2k/steel_frame_shelves_03/steel_frame_shelves_03_nor_gl_2k.exr",
+      "md5": "0b024a859dedeae04b4a8f8e61a1d6ef",
+      "sha256": "bfed54d79453fb6c68db3ce60e135f96477743de15fc7a5be20139e665facf7e"
+    }
+  ],
+  "export": {
+    "tool": "Blender 5.2.3 LTS",
+    "script": "Tools/ConvertRealismModels.py",
+    "files": [
+      {
+        "path": "Model.fbx",
+        "sha256": "27e12549c4c50a4d121c7b897a23e05dbdeb58ee500c82b07d3e6a108039187c"
+      },
+      {
+        "path": "Materials.json",
+        "sha256": "8be0900c2b4ecf34eb52e09b3f5a205cef6c66c69d35221457cfbea16e7f6890"
+      },
+      {
+        "path": "Textures/steel_frame_shelves_03_Base.jpg",
+        "sha256": "63c18fb19103ddf41a9d1066af47ff75c938d147a2e6cf0d7b90d5d0b01dacbf"
+      },
+      {
+        "path": "Textures/steel_frame_shelves_03_drawers_Base.png",
+        "sha256": "f82831323f6236b810ce48fe5b3e1c5d637dc04fbfd54102222e7f4712a3f34d"
+      },
+      {
+        "path": "Textures/steel_frame_shelves_03_drawers_Normal.png",
+        "sha256": "2ff0d00bf39eba0a689858ce74a16cec86dfa7dd805f3a6f046aceb31f247858"
+      },
+      {
+        "path": "Textures/steel_frame_shelves_03_drawers_Packed.png",
+        "sha256": "22fddb4662e5c49a2cfccc910e8a52c028f687f46a79f3690abb02514438e24c"
+      },
+      {
+        "path": "Textures/steel_frame_shelves_03_Normal.png",
+        "sha256": "df5196c6cf05ddedbaa4da178bb55bc1dc207959d675bd83736df6a8d266a55e"
+      },
+      {
+        "path": "Textures/steel_frame_shelves_03_Packed.png",
+        "sha256": "fc870eb673e58881ca311d92eba31ae3d994b66b4ebece7cd47298c137bf3861"
+      }
+    ]
+  }
+}

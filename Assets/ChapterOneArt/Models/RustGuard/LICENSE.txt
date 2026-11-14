@@ -1,0 +1,16 @@
+RustGuard original procedural geometry
+
+Created for LastCellOfPower, 2026-11-13.
+The original geometry, Blender generator and generated model files in this directory
+are made available under CC0 1.0 Universal:
+https://creativecommons.org/publicdomain/zero/1.0/
+
+The original design takes only a general abandoned-industrial atmosphere as its
+reference. No third-party game character model, branding or artwork is included.
+PBR texture sources used by the Unity material variants are documented separately
+in the ChapterOneArt asset manifest and retain their own source/license records.
+
+Source~/RustGuard.blend is the editable geometry source. The Source~ directory is
+intentionally ignored by Unity to avoid an additional automatic Blender import.
+RustGuard-preview.png is an offline Blender shape preview with plain materials,
+not a screenshot of the Unity game or evidence of final PBR rendering.

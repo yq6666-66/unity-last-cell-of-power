@@ -1,0 +1,11 @@
+{
+  "assetId": "wooden_crate_02",
+  "materials": [
+    {
+      "name": "wooden_crate_02",
+      "base": "wooden_crate_02_Base.jpg",
+      "normal": "wooden_crate_02_Normal.png",
+      "packed": "wooden_crate_02_Packed.png"
+    }
+  ]
+}

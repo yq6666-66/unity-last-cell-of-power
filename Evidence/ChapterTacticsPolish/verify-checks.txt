@@ -1,0 +1,37 @@
+POLISH VERIFY
+Reference: yq6666-66/game-development-plugins@8693e66d50f40b70f95fec3f77f3a0322ef08eb3
+Read: game-playloop-validation/SKILL.md; state-and-test-gates.md; recovery-and-audio-information.md; async-and-divergence.md.
+Adopted: input -> committed state -> feedback, observer-before-action, explicit async outcomes, muted information checks. Not applicable: saves, new systems, other engines, deployment.
+EVIDENCE: disposable PlayMode fixtures with controlled actor poses and explicit ticks; not normal-input route or subjective player acceptance.
+EVENT frame=5 sequence=1 device=Noise_NW kind=NoiseActivated consumed=True responses=0
+PASS Committed noise response count 0 with independent actual AI acceptance and deduplication
+EVENT frame=9 sequence=1 device=Noise_NW kind=NoiseActivated consumed=True responses=0
+EVENT frame=9 sequence=2 device=Noise_NW kind=NoiseResponseAccepted consumed=True responses=1
+PASS Committed noise response count 1 with independent actual AI acceptance and deduplication
+EVENT frame=13 sequence=1 device=Noise_NW kind=NoiseActivated consumed=True responses=0
+EVENT frame=13 sequence=2 device=Noise_NW kind=NoiseResponseAccepted consumed=True responses=1
+EVENT frame=13 sequence=3 device=Noise_NW kind=NoiseResponseAccepted consumed=True responses=2
+EVENT frame=13 sequence=4 device=Noise_NW kind=NoiseRejectedUsed consumed=True responses=2
+EVENT frame=13 sequence=5 device=Noise_SE kind=NoiseActivated consumed=True responses=0
+PASS Committed noise response count 2 with independent actual AI acceptance and deduplication
+EVENT frame=17 sequence=1 device=Noise_NW kind=NoiseActivated consumed=True responses=0
+EVENT frame=17 sequence=2 device=Noise_NW kind=NoiseResponseAccepted consumed=True responses=1
+EVENT frame=17 sequence=3 device=Noise_NW kind=NoiseEnded consumed=True responses=1
+PASS Sight priority, later real acceptance, expiry and unchanged player memory
+EVENT frame=21 sequence=1 device=Noise_NW kind=NoiseActivated consumed=True responses=0
+EVENT frame=21 sequence=2 device=Noise_NW kind=NoiseRejectedUsed consumed=True responses=0
+PASS Actual HUD success visible at 1.99s/cleared at 2.01s and rejection visible at 2.99s/cleared at 3.01s; default 2/3s and no competing observations
+EVENT frame=25 sequence=1 device=SHUTTER_EAST kind=ShutterRejectedOccupied consumed=False responses=0
+EVENT frame=25 sequence=2 device=SHUTTER_EAST kind=ShutterClosing consumed=False responses=0
+EVENT frame=25 sequence=3 device=SHUTTER_EAST kind=ShutterCancelledOccupied consumed=False responses=0
+EVENT frame=25 sequence=4 device=SHUTTER_EAST kind=ShutterClosing consumed=False responses=0
+EVENT frame=25 sequence=5 device=SHUTTER_EAST kind=ShutterRejectedBusy consumed=False responses=0
+EVENT frame=25 sequence=6 device=SHUTTER_EAST kind=ShutterClosed consumed=True responses=0
+EVENT frame=25 sequence=7 device=SHUTTER_EAST kind=ShutterOpened consumed=True responses=0
+EVENT frame=25 sequence=8 device=SHUTTER_EAST kind=ShutterRejectedUsed consumed=True responses=0
+PASS Occupied rejection, closing cancellation, busy rejection, committed close/open and spent feedback agree with use state
+PASS Unread feedback/tutorial freeze on pause/focus loss, resume continuity, actual result clearing and R reset without repeated app lesson
+PASS Presenter disabled fallback, historical-event suppression on enable, and physical-view neutral restore without changing device state
+PASS Narrow compatibility: WarehouseChapterOneArtRealism
+PASS Narrow compatibility: WarehouseTactics
+PASS polish verify; completed groups=10

@@ -1,0 +1,11 @@
+{
+  "assetId": "old_military_crate",
+  "materials": [
+    {
+      "name": "military_crate_m_01",
+      "base": "military_crate_m_01_Base.jpg",
+      "normal": "military_crate_m_01_Normal.png",
+      "packed": "military_crate_m_01_Packed.png"
+    }
+  ]
+}

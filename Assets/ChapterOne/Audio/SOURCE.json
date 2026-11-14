@@ -1,0 +1,87 @@
+{
+  "origin": "Original deterministic synthesis for LastCellOfPower; no sampled external audio",
+  "generator": "Tools/GenerateChapterAudio.py",
+  "sampleRate": 32000,
+  "channels": 1,
+  "bits": 16,
+  "files": [
+    {
+      "file": "patrol_loop.wav",
+      "seconds": 2.0,
+      "peak": 0.1743,
+      "sha256": "c0545591587ccafe7c8b705b0c27fd574099b0bcac50a5e855adef6a8cc24672"
+    },
+    {
+      "file": "ambient_loop.wav",
+      "seconds": 3.0,
+      "peak": 0.0569,
+      "sha256": "b109f1e204035cfaf0b56ced1c2fcde77b385434981b634c313d825abe215d2d"
+    },
+    {
+      "file": "alert.wav",
+      "seconds": 0.55,
+      "peak": 0.217,
+      "sha256": "80c23cfc92ee72aa93ecb33bbf8b2430e6d2a1964fc2765577f19dc8a9c6bc83"
+    },
+    {
+      "file": "chase_loop.wav",
+      "seconds": 1.0,
+      "peak": 0.1527,
+      "sha256": "b20820a63f174dda92d1653244a729b51f8769a1c135bf3969806bace492caf6"
+    },
+    {
+      "file": "pulse.wav",
+      "seconds": 0.45,
+      "peak": 0.2722,
+      "sha256": "4b560e97ceaa91c2b339285d3a771445d3318819ed6de972fa7954189e1954fa"
+    },
+    {
+      "file": "recover.wav",
+      "seconds": 0.65,
+      "peak": 0.2175,
+      "sha256": "f2f5dbe9e3ef419ebca080e48e46f9267d2a7d9e2c79b7008914c4a5fcc3fe0d"
+    },
+    {
+      "file": "charge_loop.wav",
+      "seconds": 1.0,
+      "peak": 0.1096,
+      "sha256": "97898750032cb137599f1157b644d8bc02d9a0cde618f51b2dce4fa7d0261def"
+    },
+    {
+      "file": "charge_full.wav",
+      "seconds": 0.7,
+      "peak": 0.1597,
+      "sha256": "b9a36b5886ca84c287394f91cc4062e253d5c03f9f6b484be6ec73137d3a0c23"
+    },
+    {
+      "file": "supply.wav",
+      "seconds": 0.8,
+      "peak": 0.1535,
+      "sha256": "1ed79c7c6cdee92248ba99e604c30d22e0f8ce65135178825fb33d3328b6b881"
+    },
+    {
+      "file": "door.wav",
+      "seconds": 1.0,
+      "peak": 0.165,
+      "sha256": "223e9702b9650714d8894f66954753ac6231e8cabaad1b301913ba91e6cb1c57"
+    },
+    {
+      "file": "success.wav",
+      "seconds": 1.2,
+      "peak": 0.157,
+      "sha256": "d51965995da2821aa8fbaa94556b898684746fd5485fbf1f593ab60cee150a7e"
+    },
+    {
+      "file": "failure.wav",
+      "seconds": 0.8,
+      "peak": 0.2179,
+      "sha256": "fb6a5c8c7cc14ceb25103567cebd106e60c24d7f602eb16c4ead48df8360b36c"
+    },
+    {
+      "file": "ui_click.wav",
+      "seconds": 0.09,
+      "peak": 0.0858,
+      "sha256": "8d5cae808a0d368206ae79efc4ae9ac3f84b9b6ae3b2e1c8607b0cd1062372e4"
+    }
+  ]
+}

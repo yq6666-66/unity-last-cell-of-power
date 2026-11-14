@@ -1,0 +1,19 @@
+# R2 active refinement ledger
+
+FINAL STATUS: COMPLETE, 2026-11-13. Final Windows build is `../Builds/ChapterOneArt-20261113-164659`, 0 errors/0 warnings. R2 routes and protected geometry checks passed. Final RTX4060/D3D11/1920x1080 rendered-and-synchronized probe: 600 frames, mean4.977ms, P95 5.589ms; separate GPU timing unavailable. Final visual evidence is in `Evidence/ChapterOneArtRealism/gpu`, not the earlier intermediate screenshots. Delivery archives and CRC/hash verification are in `../LastCellOfPower-ArtRealism-20261113-174217`. The numbered entries below preserve the early implementation snapshot; no items there remain outstanding.
+
+Final corrections: static room HDR reflection assets replace unrendered realtime probes; AmbientMode.Custom preserves SH coefficients; wet alpha also attenuates specular; old military crate exports only closed A; front curtains are removed and cargo uses actual support bounds; robot body uses spotted oxidized steel with visible physical damage. Optional fixed inspection light changes presentation only. Baseline check:368/371 original files unchanged, only three authorized common scripts differ. Unity's incidental editor-only URP default-folder serialization was backed up and restored before source packaging. Source texture/model hashes verified.
+
+User steering after R1 preview: more realistic, can imitate Resident Evil; pursuing robot must be rusted and damaged. Continue existing implementation, not a new planning-only task.
+
+R1 retained at `../LastCellOfPower-art-r1-backup-20261113-130244`, Windows build `../Builds/ChapterOneArt-20261113-125632`. R1 gameplay checks passed; actual explicit-render+GPU-sync probe passed 600 frames, 1920x1080 RTX4060, mean8.3265ms/P959.4825ms (~120.1 rendered frames/s). No final archives created before user steering.
+
+R2 source entry: ChapterArtDelivery.ScenePath now `Assets/ChapterOneArt/Scenes/WarehouseChapterOneArtRealism.unity`, Evidence now `Evidence/ChapterOneArtRealism`. Generation still starts from original accepted ChapterOne, builds R1 then applies new realistic environment, robot and lighting. Geometry snapshot must remain identical.
+
+1. Real-world CC0 models downloaded with MD5/SHA256, source in SourceArt/PolyHavenModels. Three sets: wooden_crate_02, old_military_crate, steel_frame_shelves_03. Blender5.2 CLI available; Tools/ConvertRealismModels.py exports independent FBX and URP packed maps. Fixed Blender //textures\\file path being mistaken for Windows UNC. Material maps exported:1/1/2. Untrusted blend Python execution disabled.
+2. Two scanned architectural texture sets prepared: concrete_wall_003 and painted_concrete_02. Materials helper creates wall/peeling paint/worn yellow plus remaps model materials.
+3. Environment agent created ChapterArtRealismEnvironment.Apply: old collider-shaped visual wall skins; pipes/flanges/paint lines;17 true models inside original cover bounds; no collider. Robot agent creating original RustGuard FBX and runtime read-only status strip (only its files).
+4. Root added realtime OnAwake room reflection probes, ambient spherical harmonics and four flat reflective damp patches. No Unity generation/compile has run for R2 yet.
+5. Still required: complete source integration, batched generation/capture/review/checks, final Windows build+valid rendered probe, update documents+hash protection check, package source (include SourceArt now), Windows, licenses and final image preview. R1 tests/performance must not be represented as R2 results.
+
+Reference: Capcom's own discussion of RE2's wetness and darkness direction, https://blog.playstation.com/archive/2018/07/20/how-capcoms-powerful-re-engine-rebuilt-resident-evil-2s-leon-kennedy-claire-redfield-and-raccoon-city/ . Use visual principles and original/CC0 assets, not extracted game content.

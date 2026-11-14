@@ -1,0 +1,68 @@
+{
+  "assetId": "old_military_crate",
+  "title": "Old Military Crate",
+  "authors": {
+    "Jack Mava": "All"
+  },
+  "source": "https://polyhaven.com/a/old_military_crate",
+  "license": "CC0-1.0",
+  "files": [
+    {
+      "path": "source.blend",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Models/blend/2k/old_military_crate/old_military_crate_2k.blend",
+      "md5": "20196b756ea87c910d40b624c0d2ce5d",
+      "sha256": "1862627f1c199fc0bd3147d8b930577b3cfa77a7d8bdfcbc4d0681f1f1250aea"
+    },
+    {
+      "path": "textures/old_military_crate_diff_2k.jpg",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/old_military_crate/old_military_crate_diff_2k.jpg",
+      "md5": "141e3163cfd56a2654440a4f4fac9bfa",
+      "sha256": "ebc666e42a5d276195f2589243e2c202f3cd166216c96e7d6a776feada85002d"
+    },
+    {
+      "path": "textures/old_military_crate_metal_2k.exr",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/2k/old_military_crate/old_military_crate_metal_2k.exr",
+      "md5": "e6cc6bd94c9018b5e2957d5f57c07edc",
+      "sha256": "5483680dc2923117690cfa6e5a6b1701e2363f4ea1d3b94ae3aacabbe1d72867"
+    },
+    {
+      "path": "textures/old_military_crate_nor_gl_2k.exr",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/2k/old_military_crate/old_military_crate_nor_gl_2k.exr",
+      "md5": "4a1e2ce6f2d21eddb4b12370bcd9cf53",
+      "sha256": "d99920c80bdfe578b9aeb0fa27744f028c3b30a01bd6558d1cd6f090a740a777"
+    },
+    {
+      "path": "textures/old_military_crate_rough_2k.exr",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/2k/old_military_crate/old_military_crate_rough_2k.exr",
+      "md5": "661a73753fd09fecd588e3082fb702a1",
+      "sha256": "78deda22ff912af6b7d0b6c2778de357ebfaf2f6b12c6bcb4e411180257dcbd6"
+    }
+  ],
+  "export": {
+    "tool": "Blender 5.2.3 LTS",
+    "script": "Tools/ConvertRealismModels.py",
+    "files": [
+      {
+        "path": "Model.fbx",
+        "sha256": "404348da9adade38f744a8560cb686ae0508ed85cbc41a875d4cf824da4c058b"
+      },
+      {
+        "path": "Materials.json",
+        "sha256": "05110dfe568be48e954772955077d838d2cbb8b6ba6cd9a20008f694ba0f48d2"
+      },
+      {
+        "path": "Textures/military_crate_m_01_Base.jpg",
+        "sha256": "ebc666e42a5d276195f2589243e2c202f3cd166216c96e7d6a776feada85002d"
+      },
+      {
+        "path": "Textures/military_crate_m_01_Normal.png",
+        "sha256": "97feec06a96d0e7435015b4176195c88871004fe6c5584fde0087f628ce33181"
+      },
+      {
+        "path": "Textures/military_crate_m_01_Packed.png",
+        "sha256": "5fbd8391bac10d815ac2ec45a702dd1d627c8528108b08f59cecfdfb4affe963"
+      }
+    ],
+    "selectedVariant": "closed _a only; exclude _b open variant"
+  }
+}

@@ -1,0 +1,23 @@
+POLISH PRESENTATION
+Reference: yq6666-66/game-development-plugins@8693e66d50f40b70f95fec3f77f3a0322ef08eb3
+Read: game-playloop-validation/SKILL.md; state-and-test-gates.md; recovery-and-audio-information.md; async-and-divergence.md.
+Adopted: input -> committed state -> feedback, observer-before-action, explicit async outcomes, muted information checks. Not applicable: saves, new systems, other engines, deployment.
+EVIDENCE: disposable PlayMode fixtures with controlled actor poses and explicit ticks; not normal-input route or subjective player acceptance.
+WORLD_LABEL_VIEWPORT muted-noise-activated-1280.png Title/Destination/State glyph bounds contained; original eye height/FOV retained
+CAPTURE muted-noise-activated-1280.png actual camera/Canvas 1280x720; original canvas=ScreenSpaceOverlay temporarily ScreenSpaceCamera for off-screen target; checked active TMP overflow, glyphs and viewport containment
+WORLD_LABEL_VIEWPORT world-sign-1p2m-1280.png Title/Destination/State glyph bounds contained; original eye height/FOV retained
+CAPTURE world-sign-1p2m-1280.png actual camera/Canvas 1280x720; original canvas=ScreenSpaceOverlay temporarily ScreenSpaceCamera for off-screen target; checked active TMP overflow, glyphs and viewport containment
+WORLD_LABEL_VIEWPORT world-sign-1p8m-1280.png Title/Destination/State glyph bounds contained; original eye height/FOV retained
+CAPTURE world-sign-1p8m-1280.png actual camera/Canvas 1280x720; original canvas=ScreenSpaceOverlay temporarily ScreenSpaceCamera for off-screen target; checked active TMP overflow, glyphs and viewport containment
+CAPTURE muted-noise-two-responses-1280.png actual camera/Canvas 1280x720; original canvas=ScreenSpaceOverlay temporarily ScreenSpaceCamera for off-screen target; checked active TMP overflow, glyphs and viewport containment
+CAPTURE muted-shutter-cancel-1280.png actual camera/Canvas 1280x720; original canvas=ScreenSpaceOverlay temporarily ScreenSpaceCamera for off-screen target; checked active TMP overflow, glyphs and viewport containment
+PASS Muted real E activation, physical movement cancellation, later use and rejected repeat all have textual state evidence
+CAPTURE dual-threat-countdown-960.png actual camera/Canvas 960x540; original canvas=ScreenSpaceOverlay temporarily ScreenSpaceCamera for off-screen target; checked active TMP overflow, glyphs and viewport containment
+CAPTURE dual-threat-countdown-1280.png actual camera/Canvas 1280x720; original canvas=ScreenSpaceOverlay temporarily ScreenSpaceCamera for off-screen target; checked active TMP overflow, glyphs and viewport containment
+CAPTURE dual-threat-countdown-1920.png actual camera/Canvas 1920x1080; original canvas=ScreenSpaceOverlay temporarily ScreenSpaceCamera for off-screen target; checked active TMP overflow, glyphs and viewport containment
+CAPTURE dynamic-background-turn-1280.png actual camera/Canvas 1280x720; original canvas=ScreenSpaceOverlay temporarily ScreenSpaceCamera for off-screen target; checked active TMP overflow, glyphs and viewport containment
+CAPTURE three-help-cards-960.png actual camera/Canvas 960x540; original canvas=ScreenSpaceOverlay temporarily ScreenSpaceCamera for off-screen target; checked active TMP overflow, glyphs and viewport containment
+CAPTURE three-help-cards-1280.png actual camera/Canvas 1280x720; original canvas=ScreenSpaceOverlay temporarily ScreenSpaceCamera for off-screen target; checked active TMP overflow, glyphs and viewport containment
+CAPTURE three-help-cards-1920.png actual camera/Canvas 1920x1080; original canvas=ScreenSpaceOverlay temporarily ScreenSpaceCamera for off-screen target; checked active TMP overflow, glyphs and viewport containment
+PASS 960/1280/1920 dual threats, long objective/context text, countdown and all three help cards; one mouse-turn background pair
+PASS polish presentation; completed groups=2
